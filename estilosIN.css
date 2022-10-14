@@ -1,0 +1,82 @@
+
+
+/*GLOBALES*/
+
+html{
+    box-sizing: border-box;
+    margin:0;
+	padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* NAV */
+
+.div-nav{
+
+}
+
+.nav{
+    background-color: beige;
+}
+
+.nav-div{
+    display:flex;
+    justify-content: space-between;
+}
+
+/*ASIDE*/
+
+.aside-ul{
+    list-style: none;
+    
+}
+
+.aside-li{
+    margin-bottom: 15px;
+}
+
+.aside-button{
+    padding: 20px;
+}
+
+@media (min-width:768px){
+    .aside-button{
+        padding: 20px;
+        height: 80px;
+    }
+}
+
+
+/*MAIN*/
+
+.div-flex-dat{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.datos{
+    text-align: center;
+}
+
+
+/*Flex-Aside*/
+@media (min-width: 768px){
+
+
+.flex-aside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-aside{
+    flex:1;
+}
+
+.div-dat{
+    flex:10;
+}
+
+}
